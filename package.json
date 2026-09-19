@@ -1,0 +1,40 @@
+{
+  "name": "seatly",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "nx serve",
+    "build": "nx build",
+    "watch": "nx build --watch --configuration development",
+    "test": "nx test"
+  },
+  "private": true,
+  "packageManager": "npm@12.0.2",
+  "dependencies": {
+    "@angular/common": "^22.1.0",
+    "@angular/compiler": "^22.1.0",
+    "@angular/core": "^22.1.0",
+    "@angular/forms": "^22.1.0",
+    "@angular/platform-browser": "^22.1.0",
+    "@angular/router": "^22.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/core": "^22.1.8",
+    "@angular-devkit/schematics": "^22.1.8",
+    "@angular/build": "^22.1.8",
+    "@angular/cli": "^22.1.8",
+    "@angular/compiler-cli": "^22.1.0",
+    "@nx/angular": "23.2.1",
+    "@nx/js": "23.2.1",
+    "@nx/workspace": "23.2.1",
+    "@schematics/angular": "^22.1.8",
+    "@swc/helpers": "~0.5.18",
+    "jsdom": "^28.0.0",
+    "nx": "23.2.1",
+    "prettier": "^3.8.1",
+    "typescript": "~6.0.2",
+    "vitest": "^4.0.8"
+  }
+}
