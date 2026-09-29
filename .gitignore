@@ -1,4 +1,10 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files
+# for more about ignoring files.
+
+# Environment variables
+.env
+.env.*
+!.env.example
 
 # Compiled output
 /dist
@@ -39,12 +45,11 @@ testem.log
 /typings
 __screenshots__/
 
-# System files
-.DS_Store
-Thumbs.db
-
-
-
+# Nx
 .nx/cache
 .nx/workspace-data
 .nx/migrate-runs
+
+# System files
+.DS_Store
+Thumbs.db
